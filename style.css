@@ -3,6 +3,10 @@ body {
     font-optical-sizing: auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* common styles */
 .text-primary {
     color: orange;
@@ -94,9 +98,51 @@ nav a {
 }
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: rgb(193, 188, 188);
+    background: rgb(224, 205, 205);
     margin: 130px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* slikks related styl */
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description {
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
